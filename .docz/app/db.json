@@ -1,0 +1,395 @@
+{
+  "config": {
+    "title": "Docz Example Basic",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "2.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/Users/aurelie.wagner/aurelie-sandbox/my-docz-app/README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "basic-docz-example",
+            "depth": 1,
+            "value": "Basic Docz example"
+          },
+          {
+            "slug": "using-create-docz-app",
+            "depth": 2,
+            "value": "Using  create-docz-app"
+          },
+          {
+            "slug": "download-manually",
+            "depth": 2,
+            "value": "Download manually"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "run",
+            "depth": 2,
+            "value": "Run"
+          },
+          {
+            "slug": "build",
+            "depth": 2,
+            "value": "Build"
+          },
+          {
+            "slug": "serve-built-app",
+            "depth": 2,
+            "value": "Serve built app"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/index.mdx",
+      "value": {
+        "name": "Getting Started",
+        "route": "/",
+        "id": "6576455a124f9aaefd860597f03a8fe4",
+        "filepath": "src/index.mdx",
+        "fullpath": "/Users/aurelie.wagner/aurelie-sandbox/my-docz-app/src/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "getting-started",
+            "depth": 1,
+            "value": "Getting Started"
+          },
+          {
+            "slug": "consistency",
+            "depth": 2,
+            "value": "Consistency"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Alert.mdx",
+      "value": {
+        "name": "Alert",
+        "menu": "Components",
+        "id": "411d2842c3d65e6ee7d3ec119ed4c5a0",
+        "filepath": "src/components/Alert.mdx",
+        "fullpath": "/Users/aurelie.wagner/aurelie-sandbox/my-docz-app/src/components/Alert.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-alert",
+        "route": "/src-components-alert",
+        "headings": [
+          {
+            "slug": "alert",
+            "depth": 1,
+            "value": "Alert"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "using-different-kinds",
+            "depth": 2,
+            "value": "Using different kinds"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Button.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Components",
+        "id": "94c04b4e4bd29ffbdeec8755c1a4c04f",
+        "filepath": "src/components/Button.mdx",
+        "fullpath": "/Users/aurelie.wagner/aurelie-sandbox/my-docz-app/src/components/Button.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-button",
+        "route": "/src-components-button",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "props",
+            "depth": 2,
+            "value": "Props"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic Usage"
+          },
+          {
+            "slug": "differents",
+            "depth": 2,
+            "value": "Differents"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/SuperText.mdx",
+      "value": {
+        "name": "Text",
+        "menu": "Components",
+        "id": "df265a9c6db932e5e3fa0487b67c31e0",
+        "filepath": "src/components/SuperText.mdx",
+        "fullpath": "/Users/aurelie.wagner/aurelie-sandbox/my-docz-app/src/components/SuperText.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-super-text",
+        "route": "/src-components-super-text",
+        "headings": [
+          {
+            "slug": "text",
+            "depth": 1,
+            "value": "Text"
+          },
+          {
+            "slug": "props",
+            "depth": 2,
+            "value": "Props"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic Usage"
+          },
+          {
+            "slug": "differents",
+            "depth": 2,
+            "value": "Differents"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/index.mdx",
+      "value": {
+        "name": "Hello world",
+        "route": "/hello",
+        "id": "8f6609a989594e49bce5582173f1be02",
+        "filepath": "src/components/index.mdx",
+        "fullpath": "/Users/aurelie.wagner/aurelie-sandbox/my-docz-app/src/components/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-index",
+        "menu": "",
+        "headings": []
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/components/Alert.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "actualName": "Alert",
+          "props": {
+            "kind": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'info'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'positive'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'negative'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'warning'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "The kind prop is used to set the alert's background color",
+              "defaultValue": {
+                "value": "'info'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Button.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "size": {
+              "defaultValue": {
+                "value": "\"medium\"",
+                "computed": false
+              },
+              "required": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Link.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Link",
+          "methods": [],
+          "actualName": "Link"
+        }
+      ]
+    },
+    {
+      "key": "src/components/SuperText.js",
+      "value": [
+        {
+          "description": "",
+          "methods": [],
+          "actualName": "",
+          "props": {
+            "tag": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"h1\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"h2\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"h3\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"h4\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"h5\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"h6\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"p\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"div\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"span\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"p\"",
+                "computed": false
+              }
+            },
+            "size": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "\"typo1\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo2\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo3\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo4\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo5\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo6\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo20\"",
+                    "computed": false
+                  },
+                  {
+                    "value": "\"typo19\"",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"typo19\"",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

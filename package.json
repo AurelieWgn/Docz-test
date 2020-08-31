@@ -1,0 +1,19 @@
+{
+  "name": "docz-example-basic",
+  "version": "2.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .docz",
+    "dev": "docz dev",
+    "build": "docz build",
+    "serve": "docz serve"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "docz": "latest",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2"
+  }
+}

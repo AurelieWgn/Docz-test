@@ -1,0 +1,32 @@
+---
+name: Text
+menu: Components
+---
+
+import { Playground, Props, PropsTable } from "docz";
+import { SuperText } from "./SuperText";
+
+# Text
+
+## Props
+
+<Props of={SuperText} />
+
+## Basic Usage
+
+<Playground>
+  <SuperText tag="p" size="typo19">
+    {" "}
+    Vous venez de sélectionner « créer une team ». Recherchez des créatif(s), puis
+    sélectionnez les pour créer votre team.{" "}
+  </SuperText>
+</Playground>
+
+## Differents
+
+<Playground>
+  <SuperText tag="span" size="typo3">
+    {" "}
+    Un Jolie titre{" "}
+  </SuperText>
+</Playground>
